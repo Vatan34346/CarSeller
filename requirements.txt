@@ -1,5 +1,7 @@
 Flask
 gunicorn
-python-dotenv
-selenium
+python-dotenv~=1.0.0
+selenium~=4.9.1
 webdriver-manager
+PyAutoGUI~=0.9.53
+pyperclip~=1.8.2

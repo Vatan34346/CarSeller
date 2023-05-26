@@ -1,8 +1,18 @@
-from src.CarSeller.main import create_app
+from Services.copartService import CopartService
 
 
-app = create_app()
+copart = CopartService()
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    copart.process_cars_to_mauto()
+
+
+
+
+
+
+
+
+
+
